@@ -1,23 +1,50 @@
 ---
 layout: default
+title: About
 ---
+<h1>About</h1>
+<section>
+  <p>Welcome to my small spot on the internet. This small blog is intended to provide
+  a little more information about me and what I have done so far. If you have any
+  questions please do not hesitate in contacting me (email below).</p>
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <p>I am a full-stack software developer. Good in unix-based systems. Interested in learning and writing good
+  quality code. Genuinely enthusiastic about learning, building, and shipping.</p>
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<h1 class="about-sec">Technologies</h1>
+<section>
+  <h2>Languages</h2>
+  <p>Python, Javascript (ES5, ES6, Node), Java</p>
+  <h2>Frameworks</h2>
+  <p>Django, Angular (1 & 2), Twisted</p>
+  <h2>Other</h2>
+  <p>Postgres, Celery, RabbitMQ, AWS, Machine Learning, HTML5, CSS3, ElasticSearch (ES), REST, JQuery,
+    Atlassian Suite (Bitbucket, Jira, Confluence, Hipchat), GIT, Jekyll, Wowza Streaming Engine, Jenkins</p>
+</section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+<h1 class="about-sec">Education</h1>
+<section>
+  <h2>Universidad Metropolitana CA, VE</h2>
+  <p>BSc. Systems Engineering (2009 - 2014)</p>
+
+  <h3>Courses</h3>
+  <ul>
+    <li>
+        Machine Learning (Coursera - Standford University) - Ongoing
+    </li>
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <h3>Other</h3>
+  <ul>
+    <li>
+        International Cousine Chef (2009 - 2014) (Saturday Classes)
+    </li>
+  </ul>
+</section>
 
-</div>
+<h1 class="about-sec"> Interests</h1>
+<section>
+
+</section>
