@@ -1,0 +1,27 @@
+frameworks:
+  - Django
+  - Angular 1 & 2
+  - Twisted
+
+languages:
+  - Python
+  - JavaScript (ES5, ES6, Node)
+  - Java
+
+tools:
+  - Postgres
+  - Celery
+  - RabbitMQ
+  - AWS
+  - Machine Learning
+  - HTML5
+  - CSS3
+  - ElasticSearch (ES)
+  - REST
+  - JQuery
+  - Atlassian Suite (Bitbucket, Jira, Confluence, Hipchat)
+  - GIT
+  - Jekyll
+  - Wowza Streaming Engine
+  - Jenkins
+  - SQL

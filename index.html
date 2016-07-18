@@ -16,12 +16,23 @@ title: About
 <h1 class="about-sec">Technologies</h1>
 <section>
   <h3>Languages</h3>
-  <p>Python, Javascript (ES5, ES6, Node), Java</p>
+  <p>
+    {% for lang in site.data.technologies.languages %}
+      <span class="label label-primary">{{lang}}</span>
+    {% endfor %}
+  </p>
   <h3>Frameworks</h3>
-  <p>Django, Angular (1 & 2), Twisted</p>
+  <p>
+    {% for framework in site.data.technologies.frameworks %}
+      <span class="label label-primary">{{framework}}</span>
+    {% endfor %}
+  </p>
   <h3>Other</h3>
-  <p>Postgres, Celery, RabbitMQ, AWS, Machine Learning, HTML5, CSS3, ElasticSearch (ES), REST, JQuery,
-    Atlassian Suite (Bitbucket, Jira, Confluence, Hipchat), GIT, Jekyll, Wowza Streaming Engine, Jenkins</p>
+  <p>
+    {% for tool in site.data.technologies.tools %}
+      <span class="label label-primary">{{tool}}</span>
+    {% endfor %}
+  </p>
 </section>
 
 <h1 class="about-sec">Education</h1>
